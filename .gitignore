@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Build output
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.local
+*.env
+
+# Config data (contains API keys and passwords)
+data/config.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+dist/
+build/
+*.spec
+*.egg-info/
+
+# PyInstaller output
+windows-agent/dist/
+windows-agent/build/
+windows-agent/installer/
+
+# IDE
+.vscode/
+.idea/
